@@ -1,0 +1,42 @@
+.mainc{
+    height:400px;
+    /* width:400px; */
+    width:300px;
+    margin-top: 5%;
+    border: 1px black solid;
+    text-align: center;
+    border-radius: 25px;
+    background-color: whitesmoke;
+
+}
+.inputtext{
+    /* width:350px; */
+    width:250px;
+    margin-left: 9px;
+}
+.btnac{
+    font-size: 10px;
+}
+.rowbuttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-left: 6px;
+    margin-right: 10px;
+    text-align: center;
+}
+.key{
+    background-color: rgb(129, 127, 127);
+    color: white;
+}
+
+@media (max-width:300px){
+    .mainc{
+        height:400px;
+        width:200px;
+    }
+    .inputtext{
+        width:170px;
+
+    }
+}
